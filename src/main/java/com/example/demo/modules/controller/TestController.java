@@ -40,6 +40,7 @@ public class TestController {
     @RequiresPermissions("zdyl:test:1")
     public void bbb() {
         System.out.println("bbbbbbbbbbbbbbb");
+        System.out.println("bbbbbbbbbbbbbbb");
     }
 
     @RequestMapping("/ccc")
