@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/sys")
 public class TestController {
 
-
+   
     @RequestMapping("/test")
     public void test() {
         UsernamePasswordToken token = new UsernamePasswordToken("admin", "123456");
