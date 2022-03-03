@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/sys")
 public class TestController {
 
-   
+
     @RequestMapping("/test")
     public void test() {
         UsernamePasswordToken token = new UsernamePasswordToken("admin", "123456");
@@ -39,7 +39,6 @@ public class TestController {
     @RequestMapping("/bbb")
     @RequiresPermissions("zdyl:test:1")
     public void bbb() {
-        System.out.println("bbbbbbbbbbbbbbb");
         System.out.println("bbbbbbbbbbbbbbb");
     }
 
